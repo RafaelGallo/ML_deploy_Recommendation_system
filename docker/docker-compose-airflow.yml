@@ -1,0 +1,96 @@
+version: "3.9"
+
+x-airflow-common: &airflow-common
+  build:
+    context: ..
+    dockerfile: Airflow/Dockerfile
+  environment:
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__FERNET_KEY: ""
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "false"
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "true"
+    AIRFLOW__WEBSERVER__SECRET_KEY: "amazon-recommender-secret"
+    # Projeto
+    PROJECT_ROOT: /opt/airflow/project
+    GCP_PROJECT_ID: ${GCP_PROJECT_ID:-samara-a2d79}
+    BQ_DATASET: ${BQ_DATASET:-amazon_reviews}
+    BQ_TABLE: ${BQ_TABLE:-product_reviews}
+    GOOGLE_APPLICATION_CREDENTIALS: /opt/airflow/project/config/samara-a2d79-542a53ac58d8.json
+    MLFLOW_TRACKING_URI: ${MLFLOW_TRACKING_URI:-http://mlflow:5000}
+    EMAIL_SENDER: ${EMAIL_SENDER:-rafaelhenriquegallo@gmail.com}
+    EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+    EMAIL_RECIPIENTS: ${EMAIL_RECIPIENTS:-rafaelhenriquegallo@gmail.com}
+    MIN_PRECISION_AT_5: "0.50"
+    MIN_HIT_RATE_AT_5: "0.80"
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./plugins:/opt/airflow/plugins
+    - ..:/opt/airflow/project
+  depends_on:
+    postgres:
+      condition: service_healthy
+  restart: unless-stopped
+
+services:
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - airflow_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 10s
+      retries: 5
+    restart: unless-stopped
+
+  airflow-init:
+    <<: *airflow-common
+    command: >
+      bash -c "
+        airflow db migrate &&
+        airflow users create
+          --username admin
+          --firstname Rafael
+          --lastname Gallo
+          --role Admin
+          --email ${EMAIL_SENDER:-admin@local.com}
+          --password admin
+      "
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: ["CMD", "airflow", "jobs", "check", "--job-type", "SchedulerJob", "--hostname", "$${HOSTNAME}"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  airflow_postgres:
+
+networks:
+  default:
+    name: recommender_network
+    external: true

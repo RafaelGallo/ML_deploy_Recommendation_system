@@ -1,7 +1,7 @@
 ---
 title: Amazon Product Recommender
-colorFrom: yellow
-colorTo: red
+colorFrom: orange
+colorTo: yellow
 sdk: docker
 app_port: 7860
 suggested_hardware: cpu-basic
@@ -54,4 +54,3 @@ Para retreinar usando BigQuery no Space, configure estas variaveis em Settings:
 - `MLFLOW_TRACKING_URI`, opcional
 
 Use `GOOGLE_APPLICATION_CREDENTIALS_JSON` como Secret com o conteudo completo do JSON da service account. Nao envie o arquivo `config/*.json` para o repositorio publico.
-

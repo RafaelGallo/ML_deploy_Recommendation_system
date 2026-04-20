@@ -1,0 +1,541 @@
+source_asin,source_product,recommended_asin,recommended_product,rank,similarity_score,model,run_date
+B002Y27P3M,Kindle Keyboard,"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,1,0.7803,knn,2026-04-20
+B002Y27P3M,Kindle Keyboard,B00KDRQEYQ,Certified Refurbished Kindle E-reader,2,0.5887,knn,2026-04-20
+B002Y27P3M,Kindle Keyboard,B00QJDU3KY,Kindle Paperwhite,3,0.541,knn,2026-04-20
+B002Y27P3M,Kindle Keyboard,B00KSR13CE,Kindle Paperwhite,4,0.4544,knn,2026-04-20
+B002Y27P3M,Kindle Keyboard,B01A08E70K,Kindle E-reader - Black,5,0.4472,knn,2026-04-20
+B002Y27P3M,Kindle Keyboard,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,6,0.4293,knn,2026-04-20
+B002Y27P3M,Kindle Keyboard,B01A08ECQY,Certified Refurbished Kindle E-reader - Black,7,0.4173,knn,2026-04-20
+B002Y27P3M,Kindle Keyboard,"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",8,0.3996,knn,2026-04-20
+B002Y27P3M,Kindle Keyboard,B00DOPNK14,Kindle Paperwhite,9,0.397,knn,2026-04-20
+B002Y27P3M,Kindle Keyboard,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,10,0.3916,knn,2026-04-20
+"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,B002Y27P3M,Kindle Keyboard,1,0.7803,knn,2026-04-20
+"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,B00KDRQEYQ,Certified Refurbished Kindle E-reader,2,0.7192,knn,2026-04-20
+"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,B00QJDU3KY,Kindle Paperwhite,3,0.6434,knn,2026-04-20
+"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,B00KSR13CE,Kindle Paperwhite,4,0.5823,knn,2026-04-20
+"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,B01A08E70K,Kindle E-reader - Black,5,0.5353,knn,2026-04-20
+"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,B00DOPNK14,Kindle Paperwhite,6,0.526,knn,2026-04-20
+"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,B01A08ECQY,Certified Refurbished Kindle E-reader - Black,7,0.4941,knn,2026-04-20
+"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",8,0.4933,knn,2026-04-20
+"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,9,0.4618,knn,2026-04-20
+"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,10,0.4268,knn,2026-04-20
+"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""","B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",1,0.5661,knn,2026-04-20
+"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""","B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,2,0.4933,knn,2026-04-20
+"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",B00KDRQEYQ,Certified Refurbished Kindle E-reader,3,0.4916,knn,2026-04-20
+"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",B00LWHUAF0,Fire HD 7 Tablet,4,0.4705,knn,2026-04-20
+"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",B0117U82EM,Fire HD 8 Tablet,5,0.4402,knn,2026-04-20
+"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",B00QJDU3KY,Kindle Paperwhite,6,0.4326,knn,2026-04-20
+"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",B01A08E70K,Kindle E-reader - Black,7,0.4078,knn,2026-04-20
+"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",B00LWHU9D8,Fire HD 6 Tablet,8,0.4032,knn,2026-04-20
+"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",B002Y27P3M,Kindle Keyboard,9,0.3996,knn,2026-04-20
+"B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,10,0.397,knn,2026-04-20
+B00CX5P8FC,Amazon Fire TV,B00DU15MU4,Certified Refurbished Amazon Fire TV (Previous Generation - 1st),1,0.8759,knn,2026-04-20
+B00CX5P8FC,Amazon Fire TV,B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,2,0.3603,knn,2026-04-20
+B00CX5P8FC,Amazon Fire TV,B00LWHU9D8,Fire HD 6 Tablet,3,0.3261,knn,2026-04-20
+B00CX5P8FC,Amazon Fire TV,B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,4,0.3251,knn,2026-04-20
+B00CX5P8FC,Amazon Fire TV,B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,5,0.3041,knn,2026-04-20
+B00CX5P8FC,Amazon Fire TV,B00NO8LX7E,All-New Amazon Fire TV Game Controller,6,0.3001,knn,2026-04-20
+B00CX5P8FC,Amazon Fire TV,B0117U82EM,Fire HD 8 Tablet,7,0.288,knn,2026-04-20
+B00CX5P8FC,Amazon Fire TV,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,8,0.277,knn,2026-04-20
+B00CX5P8FC,Amazon Fire TV,B00VKM5NFY,Fire HD 10 Tablet with Alexa,9,0.277,knn,2026-04-20
+B00CX5P8FC,Amazon Fire TV,B00DOPNLJ0,"Kindle Fire HDX 8.9""",10,0.2713,knn,2026-04-20
+B00DOPNK14,Kindle Paperwhite,B00QJDS7I4,Kindle Paperwhite E-reader - Black,1,0.7891,knn,2026-04-20
+B00DOPNK14,Kindle Paperwhite,B00OQVZDJM,Kindle Paperwhite E-reader - Black,2,0.7838,knn,2026-04-20
+B00DOPNK14,Kindle Paperwhite,B00QJDVBFU,Kindle Paperwhite 3G,3,0.7838,knn,2026-04-20
+B00DOPNK14,Kindle Paperwhite,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,4,0.7838,knn,2026-04-20
+B00DOPNK14,Kindle Paperwhite,B00KSR13CE,Kindle Paperwhite,5,0.7837,knn,2026-04-20
+B00DOPNK14,Kindle Paperwhite,B01A08E70K,Kindle E-reader - Black,6,0.7767,knn,2026-04-20
+B00DOPNK14,Kindle Paperwhite,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,7,0.7451,knn,2026-04-20
+B00DOPNK14,Kindle Paperwhite,B00QJDU3KY,Kindle Paperwhite,8,0.725,knn,2026-04-20
+B00DOPNK14,Kindle Paperwhite,B01J2G4VBG,Kindle Voyage E-reader,9,0.6764,knn,2026-04-20
+B00DOPNK14,Kindle Paperwhite,B00LWHUAF0,Fire HD 7 Tablet,10,0.6568,knn,2026-04-20
+B00DOPNLJ0,"Kindle Fire HDX 8.9""","B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",1,0.708,knn,2026-04-20
+B00DOPNLJ0,"Kindle Fire HDX 8.9""",B00LWHUB9A,Fire HDX 8.9 Tablet,2,0.4771,knn,2026-04-20
+B00DOPNLJ0,"Kindle Fire HDX 8.9""",B00VKM5NFY,Fire HD 10 Tablet with Alexa,3,0.4284,knn,2026-04-20
+B00DOPNLJ0,"Kindle Fire HDX 8.9""",B00VKLBU3Y,Fire HD 10 Tablet with Alexa,4,0.4284,knn,2026-04-20
+B00DOPNLJ0,"Kindle Fire HDX 8.9""",B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,5,0.3724,knn,2026-04-20
+B00DOPNLJ0,"Kindle Fire HDX 8.9""",B00LWHUAF0,Fire HD 7 Tablet,6,0.3499,knn,2026-04-20
+B00DOPNLJ0,"Kindle Fire HDX 8.9""",B0117U82EM,Fire HD 8 Tablet,7,0.3455,knn,2026-04-20
+B00DOPNLJ0,"Kindle Fire HDX 8.9""",B00LWHU9D8,Fire HD 6 Tablet,8,0.3312,knn,2026-04-20
+B00DOPNLJ0,"Kindle Fire HDX 8.9""","B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",9,0.3257,knn,2026-04-20
+B00DOPNLJ0,"Kindle Fire HDX 8.9""",B01BRWH8G8,Fire HD 8 Tablet with Alexa,10,0.2777,knn,2026-04-20
+"B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",B00DOPNLJ0,"Kindle Fire HDX 8.9""",1,0.708,knn,2026-04-20
+"B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",B00LWHUAF0,Fire HD 7 Tablet,2,0.5734,knn,2026-04-20
+"B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""","B008GGCAVM,B00DOPNMVM","Kindle Fire HD 7""",3,0.5661,knn,2026-04-20
+"B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",B00LWHUB9A,Fire HDX 8.9 Tablet,4,0.5528,knn,2026-04-20
+"B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",B00VKLBU3Y,Fire HD 10 Tablet with Alexa,5,0.4944,knn,2026-04-20
+"B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",B00VKM5NFY,Fire HD 10 Tablet with Alexa,6,0.4944,knn,2026-04-20
+"B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",B00LWHU9D8,Fire HD 6 Tablet,7,0.4612,knn,2026-04-20
+"B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,8,0.458,knn,2026-04-20
+"B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",B0117U82EM,Fire HD 8 Tablet,9,0.4554,knn,2026-04-20
+"B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",B01BRWH8G8,Fire HD 8 Tablet with Alexa,10,0.4352,knn,2026-04-20
+B00DU15MU4,Certified Refurbished Amazon Fire TV (Previous Generation - 1st),B00CX5P8FC,Amazon Fire TV,1,0.8759,knn,2026-04-20
+B00DU15MU4,Certified Refurbished Amazon Fire TV (Previous Generation - 1st),B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,2,0.3309,knn,2026-04-20
+B00DU15MU4,Certified Refurbished Amazon Fire TV (Previous Generation - 1st),B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,3,0.2996,knn,2026-04-20
+B00DU15MU4,Certified Refurbished Amazon Fire TV (Previous Generation - 1st),B00LWHU9D8,Fire HD 6 Tablet,4,0.2792,knn,2026-04-20
+B00DU15MU4,Certified Refurbished Amazon Fire TV (Previous Generation - 1st),B00NO8LX7E,All-New Amazon Fire TV Game Controller,5,0.2639,knn,2026-04-20
+B00DU15MU4,Certified Refurbished Amazon Fire TV (Previous Generation - 1st),B00VKLBU3Y,Fire HD 10 Tablet with Alexa,6,0.256,knn,2026-04-20
+B00DU15MU4,Certified Refurbished Amazon Fire TV (Previous Generation - 1st),B00VKM5NFY,Fire HD 10 Tablet with Alexa,7,0.256,knn,2026-04-20
+B00DU15MU4,Certified Refurbished Amazon Fire TV (Previous Generation - 1st),B0117U82EM,Fire HD 8 Tablet,8,0.2556,knn,2026-04-20
+B00DU15MU4,Certified Refurbished Amazon Fire TV (Previous Generation - 1st),B00DOPNLJ0,"Kindle Fire HDX 8.9""",9,0.2516,knn,2026-04-20
+B00DU15MU4,Certified Refurbished Amazon Fire TV (Previous Generation - 1st),B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,10,0.2432,knn,2026-04-20
+B00HX0SRXW,Amazon Premium Headphones,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,1,0.4553,knn,2026-04-20
+B00HX0SRXW,Amazon Premium Headphones,B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,2,0.4127,knn,2026-04-20
+B00HX0SRXW,Amazon Premium Headphones,B01K8B8YA8,Echo Dot (2nd Generation) - Black,3,0.3997,knn,2026-04-20
+B00HX0SRXW,Amazon Premium Headphones,B01KIOU214,Amazon Echo - Black,4,0.3912,knn,2026-04-20
+B00HX0SRXW,Amazon Premium Headphones,B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,5,0.3878,knn,2026-04-20
+B00HX0SRXW,Amazon Premium Headphones,B00LWHUB9A,Fire HDX 8.9 Tablet,6,0.3773,knn,2026-04-20
+B00HX0SRXW,Amazon Premium Headphones,B01A08E70K,Kindle E-reader - Black,7,0.37,knn,2026-04-20
+B00HX0SRXW,Amazon Premium Headphones,B00LWHUAF0,Fire HD 7 Tablet,8,0.3598,knn,2026-04-20
+B00HX0SRXW,Amazon Premium Headphones,B01M71HRMY,All-New Fire 7 Tablet with Alexa,9,0.3584,knn,2026-04-20
+B00HX0SRXW,Amazon Premium Headphones,B010BWYDYA,Fire Tablet with Alexa,10,0.3565,knn,2026-04-20
+B00K5W9WZW,Moshi Anti-Glare No Bubble Screen Protector for the Fire Phone,B01KIOU4EO,Echo Show - Black,1,0.573,knn,2026-04-20
+B00K5W9WZW,Moshi Anti-Glare No Bubble Screen Protector for the Fire Phone,B00VKM5NFY,Fire HD 10 Tablet with Alexa,2,0.5375,knn,2026-04-20
+B00K5W9WZW,Moshi Anti-Glare No Bubble Screen Protector for the Fire Phone,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,3,0.5375,knn,2026-04-20
+B00K5W9WZW,Moshi Anti-Glare No Bubble Screen Protector for the Fire Phone,B01M71HRMY,All-New Fire 7 Tablet with Alexa,4,0.5051,knn,2026-04-20
+B00K5W9WZW,Moshi Anti-Glare No Bubble Screen Protector for the Fire Phone,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,5,0.4926,knn,2026-04-20
+B00K5W9WZW,Moshi Anti-Glare No Bubble Screen Protector for the Fire Phone,B01A08E70K,Kindle E-reader - Black,6,0.4916,knn,2026-04-20
+B00K5W9WZW,Moshi Anti-Glare No Bubble Screen Protector for the Fire Phone,B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,7,0.4894,knn,2026-04-20
+B00K5W9WZW,Moshi Anti-Glare No Bubble Screen Protector for the Fire Phone,B010BWYDYA,Fire Tablet with Alexa,8,0.4862,knn,2026-04-20
+B00K5W9WZW,Moshi Anti-Glare No Bubble Screen Protector for the Fire Phone,B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,9,0.4852,knn,2026-04-20
+B00K5W9WZW,Moshi Anti-Glare No Bubble Screen Protector for the Fire Phone,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,10,0.4808,knn,2026-04-20
+B00KDRQEYQ,Certified Refurbished Kindle E-reader,B00QJDU3KY,Kindle Paperwhite,1,0.726,knn,2026-04-20
+B00KDRQEYQ,Certified Refurbished Kindle E-reader,"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,2,0.7192,knn,2026-04-20
+B00KDRQEYQ,Certified Refurbished Kindle E-reader,B01A08E70K,Kindle E-reader - Black,3,0.7017,knn,2026-04-20
+B00KDRQEYQ,Certified Refurbished Kindle E-reader,B00DOPNK14,Kindle Paperwhite,4,0.6534,knn,2026-04-20
+B00KDRQEYQ,Certified Refurbished Kindle E-reader,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,5,0.6321,knn,2026-04-20
+B00KDRQEYQ,Certified Refurbished Kindle E-reader,B01A08ECQY,Certified Refurbished Kindle E-reader - Black,6,0.6258,knn,2026-04-20
+B00KDRQEYQ,Certified Refurbished Kindle E-reader,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,7,0.6198,knn,2026-04-20
+B00KDRQEYQ,Certified Refurbished Kindle E-reader,B01J2G4VBG,Kindle Voyage E-reader,8,0.6032,knn,2026-04-20
+B00KDRQEYQ,Certified Refurbished Kindle E-reader,B002Y27P3M,Kindle Keyboard,9,0.5887,knn,2026-04-20
+B00KDRQEYQ,Certified Refurbished Kindle E-reader,B00QJDS7I4,Kindle Paperwhite E-reader - Black,10,0.5714,knn,2026-04-20
+B00KSR13CE,Kindle Paperwhite,B00DOPNK14,Kindle Paperwhite,1,0.7837,knn,2026-04-20
+B00KSR13CE,Kindle Paperwhite,B00QJDU3KY,Kindle Paperwhite,2,0.5836,knn,2026-04-20
+B00KSR13CE,Kindle Paperwhite,"B008GG93YE,B00LWHUBPO,B0051QYGXA",Kindle,3,0.5823,knn,2026-04-20
+B00KSR13CE,Kindle Paperwhite,B00KDRQEYQ,Certified Refurbished Kindle E-reader,4,0.5619,knn,2026-04-20
+B00KSR13CE,Kindle Paperwhite,B00QJDS7I4,Kindle Paperwhite E-reader - Black,5,0.52,knn,2026-04-20
+B00KSR13CE,Kindle Paperwhite,B00OQVZDJM,Kindle Paperwhite E-reader - Black,6,0.5132,knn,2026-04-20
+B00KSR13CE,Kindle Paperwhite,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,7,0.5132,knn,2026-04-20
+B00KSR13CE,Kindle Paperwhite,B00QJDVBFU,Kindle Paperwhite 3G,8,0.5132,knn,2026-04-20
+B00KSR13CE,Kindle Paperwhite,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,9,0.477,knn,2026-04-20
+B00KSR13CE,Kindle Paperwhite,B01A08E70K,Kindle E-reader - Black,10,0.4598,knn,2026-04-20
+B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,1,0.8929,knn,2026-04-20
+B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,2,0.7844,knn,2026-04-20
+B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,B00NO8LX7E,All-New Amazon Fire TV Game Controller,3,0.6322,knn,2026-04-20
+B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,B01KIOU214,Amazon Echo - Black,4,0.4126,knn,2026-04-20
+B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,B01KIOU4EO,Echo Show - Black,5,0.3898,knn,2026-04-20
+B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,B01K8B8YA8,Echo Dot (2nd Generation) - Black,6,0.373,knn,2026-04-20
+B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,7,0.3721,knn,2026-04-20
+B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,8,0.3665,knn,2026-04-20
+B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,B00VKM5NFY,Fire HD 10 Tablet with Alexa,9,0.3665,knn,2026-04-20
+B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,B01M71HRMY,All-New Fire 7 Tablet with Alexa,10,0.3616,knn,2026-04-20
+B00LWHU9D8,Fire HD 6 Tablet,B010BWYDYA,Fire Tablet with Alexa,1,0.536,knn,2026-04-20
+B00LWHU9D8,Fire HD 6 Tablet,B01BRWH8G8,Fire HD 8 Tablet with Alexa,2,0.5233,knn,2026-04-20
+B00LWHU9D8,Fire HD 6 Tablet,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,3,0.5171,knn,2026-04-20
+B00LWHU9D8,Fire HD 6 Tablet,B00VKM5NFY,Fire HD 10 Tablet with Alexa,4,0.5171,knn,2026-04-20
+B00LWHU9D8,Fire HD 6 Tablet,B00LWHUAF0,Fire HD 7 Tablet,5,0.5135,knn,2026-04-20
+B00LWHU9D8,Fire HD 6 Tablet,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,6,0.5002,knn,2026-04-20
+B00LWHU9D8,Fire HD 6 Tablet,B0117U82EM,Fire HD 8 Tablet,7,0.4823,knn,2026-04-20
+B00LWHU9D8,Fire HD 6 Tablet,B00LWHUB9A,Fire HDX 8.9 Tablet,8,0.4803,knn,2026-04-20
+B00LWHU9D8,Fire HD 6 Tablet,B01M71HRMY,All-New Fire 7 Tablet with Alexa,9,0.4633,knn,2026-04-20
+B00LWHU9D8,Fire HD 6 Tablet,"B00DOPNO4M,B00BWYQ9YE,B00CYQPMJC,B00CUU1CGY,B00BWYRF7E,B00CYQP3AK","Kindle Fire HDX 7""",10,0.4612,knn,2026-04-20
+B00LWHUAF0,Fire HD 7 Tablet,B00LWHUB9A,Fire HDX 8.9 Tablet,1,0.7811,knn,2026-04-20
+B00LWHUAF0,Fire HD 7 Tablet,B01BRWH8G8,Fire HD 8 Tablet with Alexa,2,0.7026,knn,2026-04-20
+B00LWHUAF0,Fire HD 7 Tablet,B00VKM5NFY,Fire HD 10 Tablet with Alexa,3,0.6986,knn,2026-04-20
+B00LWHUAF0,Fire HD 7 Tablet,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,4,0.6986,knn,2026-04-20
+B00LWHUAF0,Fire HD 7 Tablet,B01M71HRMY,All-New Fire 7 Tablet with Alexa,5,0.6955,knn,2026-04-20
+B00LWHUAF0,Fire HD 7 Tablet,B00QJDS7I4,Kindle Paperwhite E-reader - Black,6,0.6923,knn,2026-04-20
+B00LWHUAF0,Fire HD 7 Tablet,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,7,0.6865,knn,2026-04-20
+B00LWHUAF0,Fire HD 7 Tablet,B00OQVZDJM,Kindle Paperwhite E-reader - Black,8,0.6865,knn,2026-04-20
+B00LWHUAF0,Fire HD 7 Tablet,B00QJDVBFU,Kindle Paperwhite 3G,9,0.6865,knn,2026-04-20
+B00LWHUAF0,Fire HD 7 Tablet,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,10,0.6845,knn,2026-04-20
+B00LWHUB9A,Fire HDX 8.9 Tablet,B00LWHUAF0,Fire HD 7 Tablet,1,0.7811,knn,2026-04-20
+B00LWHUB9A,Fire HDX 8.9 Tablet,B00VKM5NFY,Fire HD 10 Tablet with Alexa,2,0.7322,knn,2026-04-20
+B00LWHUB9A,Fire HDX 8.9 Tablet,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,3,0.7322,knn,2026-04-20
+B00LWHUB9A,Fire HDX 8.9 Tablet,B01M71HRMY,All-New Fire 7 Tablet with Alexa,4,0.6973,knn,2026-04-20
+B00LWHUB9A,Fire HDX 8.9 Tablet,B010BWYDYA,Fire Tablet with Alexa,5,0.6966,knn,2026-04-20
+B00LWHUB9A,Fire HDX 8.9 Tablet,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,6,0.6772,knn,2026-04-20
+B00LWHUB9A,Fire HDX 8.9 Tablet,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,7,0.6609,knn,2026-04-20
+B00LWHUB9A,Fire HDX 8.9 Tablet,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,8,0.6312,knn,2026-04-20
+B00LWHUB9A,Fire HDX 8.9 Tablet,B01BRWH8G8,Fire HD 8 Tablet with Alexa,9,0.6244,knn,2026-04-20
+B00LWHUB9A,Fire HDX 8.9 Tablet,B0117U82EM,Fire HD 8 Tablet,10,0.6206,knn,2026-04-20
+B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,1,0.8929,knn,2026-04-20
+B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,2,0.8114,knn,2026-04-20
+B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,B00NO8LX7E,All-New Amazon Fire TV Game Controller,3,0.5536,knn,2026-04-20
+B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,B01KIOU214,Amazon Echo - Black,4,0.3657,knn,2026-04-20
+B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,B01KIOU4EO,Echo Show - Black,5,0.3365,knn,2026-04-20
+B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,B01K8B8YA8,Echo Dot (2nd Generation) - Black,6,0.326,knn,2026-04-20
+B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,B01M71HRMY,All-New Fire 7 Tablet with Alexa,7,0.321,knn,2026-04-20
+B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,B01BRWH8G8,Fire HD 8 Tablet with Alexa,8,0.3157,knn,2026-04-20
+B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,9,0.3105,knn,2026-04-20
+B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,B00VKM5NFY,Fire HD 10 Tablet with Alexa,10,0.3105,knn,2026-04-20
+B00NO8LX7E,All-New Amazon Fire TV Game Controller,B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,1,0.6322,knn,2026-04-20
+B00NO8LX7E,All-New Amazon Fire TV Game Controller,B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,2,0.615,knn,2026-04-20
+B00NO8LX7E,All-New Amazon Fire TV Game Controller,B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,3,0.5536,knn,2026-04-20
+B00NO8LX7E,All-New Amazon Fire TV Game Controller,B01KIOU214,Amazon Echo - Black,4,0.5195,knn,2026-04-20
+B00NO8LX7E,All-New Amazon Fire TV Game Controller,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,5,0.507,knn,2026-04-20
+B00NO8LX7E,All-New Amazon Fire TV Game Controller,B01KIOU4EO,Echo Show - Black,6,0.5062,knn,2026-04-20
+B00NO8LX7E,All-New Amazon Fire TV Game Controller,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,7,0.5028,knn,2026-04-20
+B00NO8LX7E,All-New Amazon Fire TV Game Controller,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,8,0.5025,knn,2026-04-20
+B00NO8LX7E,All-New Amazon Fire TV Game Controller,B00VKM5NFY,Fire HD 10 Tablet with Alexa,9,0.5025,knn,2026-04-20
+B00NO8LX7E,All-New Amazon Fire TV Game Controller,B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,10,0.5007,knn,2026-04-20
+B00OQVZDJM,Kindle Paperwhite E-reader - Black,B00OQVZDJM,Kindle Paperwhite E-reader - Black,1,1.0,knn,2026-04-20
+B00OQVZDJM,Kindle Paperwhite E-reader - Black,B00QJDVBFU,Kindle Paperwhite 3G,2,1.0,knn,2026-04-20
+B00OQVZDJM,Kindle Paperwhite E-reader - Black,B00QJDS7I4,Kindle Paperwhite E-reader - Black,3,0.9994,knn,2026-04-20
+B00OQVZDJM,Kindle Paperwhite E-reader - Black,B00DOPNK14,Kindle Paperwhite,4,0.7838,knn,2026-04-20
+B00OQVZDJM,Kindle Paperwhite E-reader - Black,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,5,0.7677,knn,2026-04-20
+B00OQVZDJM,Kindle Paperwhite E-reader - Black,B01A08E70K,Kindle E-reader - Black,6,0.7624,knn,2026-04-20
+B00OQVZDJM,Kindle Paperwhite E-reader - Black,B00QJDU3KY,Kindle Paperwhite,7,0.7216,knn,2026-04-20
+B00OQVZDJM,Kindle Paperwhite E-reader - Black,B01J2G4VBG,Kindle Voyage E-reader,8,0.687,knn,2026-04-20
+B00OQVZDJM,Kindle Paperwhite E-reader - Black,B00LWHUAF0,Fire HD 7 Tablet,9,0.6865,knn,2026-04-20
+B00OQVZDJM,Kindle Paperwhite E-reader - Black,B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,10,0.6607,knn,2026-04-20
+B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,B01J2G4VBG,Kindle Voyage E-reader,1,0.9328,knn,2026-04-20
+B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,2,0.7564,knn,2026-04-20
+B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,3,0.7317,knn,2026-04-20
+B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,B00QJDS7I4,Kindle Paperwhite E-reader - Black,4,0.6609,knn,2026-04-20
+B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,B00QJDVBFU,Kindle Paperwhite 3G,5,0.6607,knn,2026-04-20
+B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,B00OQVZDJM,Kindle Paperwhite E-reader - Black,6,0.6607,knn,2026-04-20
+B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,7,0.6607,knn,2026-04-20
+B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,B00DOPNK14,Kindle Paperwhite,8,0.644,knn,2026-04-20
+B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,B01A08E70K,Kindle E-reader - Black,9,0.6413,knn,2026-04-20
+B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,B00QJDU3KY,Kindle Paperwhite,10,0.6131,knn,2026-04-20
+B00QJDS7I4,Kindle Paperwhite E-reader - Black,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,1,0.9994,knn,2026-04-20
+B00QJDS7I4,Kindle Paperwhite E-reader - Black,B00OQVZDJM,Kindle Paperwhite E-reader - Black,2,0.9994,knn,2026-04-20
+B00QJDS7I4,Kindle Paperwhite E-reader - Black,B00QJDVBFU,Kindle Paperwhite 3G,3,0.9994,knn,2026-04-20
+B00QJDS7I4,Kindle Paperwhite E-reader - Black,B00DOPNK14,Kindle Paperwhite,4,0.7891,knn,2026-04-20
+B00QJDS7I4,Kindle Paperwhite E-reader - Black,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,5,0.7698,knn,2026-04-20
+B00QJDS7I4,Kindle Paperwhite E-reader - Black,B01A08E70K,Kindle E-reader - Black,6,0.7645,knn,2026-04-20
+B00QJDS7I4,Kindle Paperwhite E-reader - Black,B00QJDU3KY,Kindle Paperwhite,7,0.7205,knn,2026-04-20
+B00QJDS7I4,Kindle Paperwhite E-reader - Black,B00LWHUAF0,Fire HD 7 Tablet,8,0.6923,knn,2026-04-20
+B00QJDS7I4,Kindle Paperwhite E-reader - Black,B01J2G4VBG,Kindle Voyage E-reader,9,0.6877,knn,2026-04-20
+B00QJDS7I4,Kindle Paperwhite E-reader - Black,B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,10,0.6609,knn,2026-04-20
+B00QJDU3KY,Kindle Paperwhite,B01A08E70K,Kindle E-reader - Black,1,0.7813,knn,2026-04-20
+B00QJDU3KY,Kindle Paperwhite,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,2,0.7377,knn,2026-04-20
+B00QJDU3KY,Kindle Paperwhite,B00KDRQEYQ,Certified Refurbished Kindle E-reader,3,0.726,knn,2026-04-20
+B00QJDU3KY,Kindle Paperwhite,B00DOPNK14,Kindle Paperwhite,4,0.725,knn,2026-04-20
+B00QJDU3KY,Kindle Paperwhite,B00QJDVBFU,Kindle Paperwhite 3G,5,0.7216,knn,2026-04-20
+B00QJDU3KY,Kindle Paperwhite,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,6,0.7216,knn,2026-04-20
+B00QJDU3KY,Kindle Paperwhite,B00OQVZDJM,Kindle Paperwhite E-reader - Black,7,0.7216,knn,2026-04-20
+B00QJDU3KY,Kindle Paperwhite,B00QJDS7I4,Kindle Paperwhite E-reader - Black,8,0.7205,knn,2026-04-20
+B00QJDU3KY,Kindle Paperwhite,B01J2G4VBG,Kindle Voyage E-reader,9,0.6951,knn,2026-04-20
+B00QJDU3KY,Kindle Paperwhite,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,10,0.683,knn,2026-04-20
+B00QJDVBFU,Kindle Paperwhite 3G,B00OQVZDJM,Kindle Paperwhite E-reader - Black,1,1.0,knn,2026-04-20
+B00QJDVBFU,Kindle Paperwhite 3G,B00QJDVBFU,Kindle Paperwhite 3G,2,1.0,knn,2026-04-20
+B00QJDVBFU,Kindle Paperwhite 3G,B00QJDS7I4,Kindle Paperwhite E-reader - Black,3,0.9994,knn,2026-04-20
+B00QJDVBFU,Kindle Paperwhite 3G,B00DOPNK14,Kindle Paperwhite,4,0.7838,knn,2026-04-20
+B00QJDVBFU,Kindle Paperwhite 3G,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,5,0.7677,knn,2026-04-20
+B00QJDVBFU,Kindle Paperwhite 3G,B01A08E70K,Kindle E-reader - Black,6,0.7624,knn,2026-04-20
+B00QJDVBFU,Kindle Paperwhite 3G,B00QJDU3KY,Kindle Paperwhite,7,0.7216,knn,2026-04-20
+B00QJDVBFU,Kindle Paperwhite 3G,B01J2G4VBG,Kindle Voyage E-reader,8,0.687,knn,2026-04-20
+B00QJDVBFU,Kindle Paperwhite 3G,B00LWHUAF0,Fire HD 7 Tablet,9,0.6865,knn,2026-04-20
+B00QJDVBFU,Kindle Paperwhite 3G,B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,10,0.6607,knn,2026-04-20
+B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,B00OQVZDJM,Kindle Paperwhite E-reader - Black,1,1.0,knn,2026-04-20
+B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,B00QJDVBFU,Kindle Paperwhite 3G,2,1.0,knn,2026-04-20
+B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,B00QJDS7I4,Kindle Paperwhite E-reader - Black,3,0.9994,knn,2026-04-20
+B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,B00DOPNK14,Kindle Paperwhite,4,0.7838,knn,2026-04-20
+B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,5,0.7677,knn,2026-04-20
+B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,B01A08E70K,Kindle E-reader - Black,6,0.7624,knn,2026-04-20
+B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,B00QJDU3KY,Kindle Paperwhite,7,0.7216,knn,2026-04-20
+B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,B01J2G4VBG,Kindle Voyage E-reader,8,0.687,knn,2026-04-20
+B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,B00LWHUAF0,Fire HD 7 Tablet,9,0.6865,knn,2026-04-20
+B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,10,0.6607,knn,2026-04-20
+B00VKLBU3Y,Fire HD 10 Tablet with Alexa,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,1,1.0,knn,2026-04-20
+B00VKLBU3Y,Fire HD 10 Tablet with Alexa,B00LWHUB9A,Fire HDX 8.9 Tablet,2,0.7322,knn,2026-04-20
+B00VKLBU3Y,Fire HD 10 Tablet with Alexa,B010BWYDYA,Fire Tablet with Alexa,3,0.706,knn,2026-04-20
+B00VKLBU3Y,Fire HD 10 Tablet with Alexa,B0117U82EM,Fire HD 8 Tablet,4,0.7014,knn,2026-04-20
+B00VKLBU3Y,Fire HD 10 Tablet with Alexa,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,5,0.7008,knn,2026-04-20
+B00VKLBU3Y,Fire HD 10 Tablet with Alexa,B00LWHUAF0,Fire HD 7 Tablet,6,0.6986,knn,2026-04-20
+B00VKLBU3Y,Fire HD 10 Tablet with Alexa,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,7,0.6901,knn,2026-04-20
+B00VKLBU3Y,Fire HD 10 Tablet with Alexa,B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,8,0.6827,knn,2026-04-20
+B00VKLBU3Y,Fire HD 10 Tablet with Alexa,B01M71HRMY,All-New Fire 7 Tablet with Alexa,9,0.6811,knn,2026-04-20
+B00VKLBU3Y,Fire HD 10 Tablet with Alexa,B01BRWH8G8,Fire HD 8 Tablet with Alexa,10,0.6739,knn,2026-04-20
+B00VKM5NFY,Fire HD 10 Tablet with Alexa,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,1,1.0,knn,2026-04-20
+B00VKM5NFY,Fire HD 10 Tablet with Alexa,B00LWHUB9A,Fire HDX 8.9 Tablet,2,0.7322,knn,2026-04-20
+B00VKM5NFY,Fire HD 10 Tablet with Alexa,B010BWYDYA,Fire Tablet with Alexa,3,0.706,knn,2026-04-20
+B00VKM5NFY,Fire HD 10 Tablet with Alexa,B0117U82EM,Fire HD 8 Tablet,4,0.7014,knn,2026-04-20
+B00VKM5NFY,Fire HD 10 Tablet with Alexa,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,5,0.7008,knn,2026-04-20
+B00VKM5NFY,Fire HD 10 Tablet with Alexa,B00LWHUAF0,Fire HD 7 Tablet,6,0.6986,knn,2026-04-20
+B00VKM5NFY,Fire HD 10 Tablet with Alexa,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,7,0.6901,knn,2026-04-20
+B00VKM5NFY,Fire HD 10 Tablet with Alexa,B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,8,0.6827,knn,2026-04-20
+B00VKM5NFY,Fire HD 10 Tablet with Alexa,B01M71HRMY,All-New Fire 7 Tablet with Alexa,9,0.6811,knn,2026-04-20
+B00VKM5NFY,Fire HD 10 Tablet with Alexa,B01BRWH8G8,Fire HD 8 Tablet with Alexa,10,0.6739,knn,2026-04-20
+B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,1,0.7939,knn,2026-04-20
+B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,B01J2G4VBG,Kindle Voyage E-reader,2,0.7722,knn,2026-04-20
+B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,B00QJDS7I4,Kindle Paperwhite E-reader - Black,3,0.7698,knn,2026-04-20
+B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,4,0.7677,knn,2026-04-20
+B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,B00QJDVBFU,Kindle Paperwhite 3G,5,0.7677,knn,2026-04-20
+B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,B00OQVZDJM,Kindle Paperwhite E-reader - Black,6,0.7677,knn,2026-04-20
+B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,B01A08E70K,Kindle E-reader - Black,7,0.7635,knn,2026-04-20
+B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,8,0.7564,knn,2026-04-20
+B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,B00DOPNK14,Kindle Paperwhite,9,0.7451,knn,2026-04-20
+B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,B00QJDU3KY,Kindle Paperwhite,10,0.7377,knn,2026-04-20
+B010BWYDYA,Fire Tablet with Alexa,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,1,0.761,knn,2026-04-20
+B010BWYDYA,Fire Tablet with Alexa,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,2,0.7476,knn,2026-04-20
+B010BWYDYA,Fire Tablet with Alexa,B01BRWH8G8,Fire HD 8 Tablet with Alexa,3,0.7356,knn,2026-04-20
+B010BWYDYA,Fire Tablet with Alexa,B01M71HRMY,All-New Fire 7 Tablet with Alexa,4,0.7234,knn,2026-04-20
+B010BWYDYA,Fire Tablet with Alexa,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,5,0.7067,knn,2026-04-20
+B010BWYDYA,Fire Tablet with Alexa,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,6,0.706,knn,2026-04-20
+B010BWYDYA,Fire Tablet with Alexa,B00VKM5NFY,Fire HD 10 Tablet with Alexa,7,0.706,knn,2026-04-20
+B010BWYDYA,Fire Tablet with Alexa,B00LWHUB9A,Fire HDX 8.9 Tablet,8,0.6966,knn,2026-04-20
+B010BWYDYA,Fire Tablet with Alexa,B00LWHUAF0,Fire HD 7 Tablet,9,0.6701,knn,2026-04-20
+B010BWYDYA,Fire Tablet with Alexa,B0117U82EM,Fire HD 8 Tablet,10,0.6574,knn,2026-04-20
+B010BWYP20,Fire Kids Edition Tablet,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,1,0.6476,knn,2026-04-20
+B010BWYP20,Fire Kids Edition Tablet,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,2,0.6232,knn,2026-04-20
+B010BWYP20,Fire Kids Edition Tablet,B010BWYDYA,Fire Tablet with Alexa,3,0.5785,knn,2026-04-20
+B010BWYP20,Fire Kids Edition Tablet,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,4,0.5322,knn,2026-04-20
+B010BWYP20,Fire Kids Edition Tablet,B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,5,0.5254,knn,2026-04-20
+B010BWYP20,Fire Kids Edition Tablet,B00LWHUAF0,Fire HD 7 Tablet,6,0.5245,knn,2026-04-20
+B010BWYP20,Fire Kids Edition Tablet,B01M71HRMY,All-New Fire 7 Tablet with Alexa,7,0.5083,knn,2026-04-20
+B010BWYP20,Fire Kids Edition Tablet,B0117U82EM,Fire HD 8 Tablet,8,0.5059,knn,2026-04-20
+B010BWYP20,Fire Kids Edition Tablet,B00VKM5NFY,Fire HD 10 Tablet with Alexa,9,0.4878,knn,2026-04-20
+B010BWYP20,Fire Kids Edition Tablet,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,10,0.4878,knn,2026-04-20
+B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,1,0.7939,knn,2026-04-20
+B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,2,0.7317,knn,2026-04-20
+B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,B01J2G4VBG,Kindle Voyage E-reader,3,0.7237,knn,2026-04-20
+B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,B01A08E70K,Kindle E-reader - Black,4,0.705,knn,2026-04-20
+B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,B00QJDU3KY,Kindle Paperwhite,5,0.683,knn,2026-04-20
+B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,6,0.657,knn,2026-04-20
+B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,7,0.6518,knn,2026-04-20
+B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,8,0.6505,knn,2026-04-20
+B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,9,0.6499,knn,2026-04-20
+B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,B00OQVZDJM,Kindle Paperwhite E-reader - Black,10,0.6499,knn,2026-04-20
+B0117U82EM,Fire HD 8 Tablet,B00VKM5NFY,Fire HD 10 Tablet with Alexa,1,0.7014,knn,2026-04-20
+B0117U82EM,Fire HD 8 Tablet,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,2,0.7014,knn,2026-04-20
+B0117U82EM,Fire HD 8 Tablet,B01BRWH8G8,Fire HD 8 Tablet with Alexa,3,0.6919,knn,2026-04-20
+B0117U82EM,Fire HD 8 Tablet,B010BWYDYA,Fire Tablet with Alexa,4,0.6574,knn,2026-04-20
+B0117U82EM,Fire HD 8 Tablet,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,5,0.6538,knn,2026-04-20
+B0117U82EM,Fire HD 8 Tablet,B00LWHUAF0,Fire HD 7 Tablet,6,0.6499,knn,2026-04-20
+B0117U82EM,Fire HD 8 Tablet,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,7,0.6407,knn,2026-04-20
+B0117U82EM,Fire HD 8 Tablet,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,8,0.6228,knn,2026-04-20
+B0117U82EM,Fire HD 8 Tablet,B00LWHUB9A,Fire HDX 8.9 Tablet,9,0.6206,knn,2026-04-20
+B0117U82EM,Fire HD 8 Tablet,B01M71HRMY,All-New Fire 7 Tablet with Alexa,10,0.5992,knn,2026-04-20
+B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,1,0.6827,knn,2026-04-20
+B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,B00VKM5NFY,Fire HD 10 Tablet with Alexa,2,0.6827,knn,2026-04-20
+B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,B00LWHUB9A,Fire HDX 8.9 Tablet,3,0.6117,knn,2026-04-20
+B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,4,0.6015,knn,2026-04-20
+B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,B010BWYDYA,Fire Tablet with Alexa,5,0.5976,knn,2026-04-20
+B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,B00LWHUAF0,Fire HD 7 Tablet,6,0.5922,knn,2026-04-20
+B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,B01BRWH8G8,Fire HD 8 Tablet with Alexa,7,0.5905,knn,2026-04-20
+B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,8,0.5901,knn,2026-04-20
+B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,9,0.5815,knn,2026-04-20
+B0117U8JSG,Certified Refurbished Fire HD 10 Tablet,B01M71HRMY,All-New Fire 7 Tablet with Alexa,10,0.5782,knn,2026-04-20
+B01A08E70K,Kindle E-reader - Black,B00QJDU3KY,Kindle Paperwhite,1,0.7813,knn,2026-04-20
+B01A08E70K,Kindle E-reader - Black,B00DOPNK14,Kindle Paperwhite,2,0.7767,knn,2026-04-20
+B01A08E70K,Kindle E-reader - Black,B00QJDS7I4,Kindle Paperwhite E-reader - Black,3,0.7645,knn,2026-04-20
+B01A08E70K,Kindle E-reader - Black,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,4,0.7635,knn,2026-04-20
+B01A08E70K,Kindle E-reader - Black,B00OQVZDJM,Kindle Paperwhite E-reader - Black,5,0.7624,knn,2026-04-20
+B01A08E70K,Kindle E-reader - Black,B00QJDVBFU,Kindle Paperwhite 3G,6,0.7624,knn,2026-04-20
+B01A08E70K,Kindle E-reader - Black,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,7,0.7624,knn,2026-04-20
+B01A08E70K,Kindle E-reader - Black,B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,8,0.7158,knn,2026-04-20
+B01A08E70K,Kindle E-reader - Black,B01A08ECQY,Certified Refurbished Kindle E-reader - Black,9,0.7105,knn,2026-04-20
+B01A08E70K,Kindle E-reader - Black,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,10,0.705,knn,2026-04-20
+B01A08ECQY,Certified Refurbished Kindle E-reader - Black,B01A08E70K,Kindle E-reader - Black,1,0.7105,knn,2026-04-20
+B01A08ECQY,Certified Refurbished Kindle E-reader - Black,B00QJDU3KY,Kindle Paperwhite,2,0.6499,knn,2026-04-20
+B01A08ECQY,Certified Refurbished Kindle E-reader - Black,B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,3,0.6459,knn,2026-04-20
+B01A08ECQY,Certified Refurbished Kindle E-reader - Black,B00KDRQEYQ,Certified Refurbished Kindle E-reader,4,0.6258,knn,2026-04-20
+B01A08ECQY,Certified Refurbished Kindle E-reader - Black,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,5,0.6246,knn,2026-04-20
+B01A08ECQY,Certified Refurbished Kindle E-reader - Black,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,6,0.6246,knn,2026-04-20
+B01A08ECQY,Certified Refurbished Kindle E-reader - Black,B00QJDVBFU,Kindle Paperwhite 3G,7,0.5937,knn,2026-04-20
+B01A08ECQY,Certified Refurbished Kindle E-reader - Black,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,8,0.5937,knn,2026-04-20
+B01A08ECQY,Certified Refurbished Kindle E-reader - Black,B00OQVZDJM,Kindle Paperwhite E-reader - Black,9,0.5937,knn,2026-04-20
+B01A08ECQY,Certified Refurbished Kindle E-reader - Black,B00QJDS7I4,Kindle Paperwhite E-reader - Black,10,0.592,knn,2026-04-20
+B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,B01KIOU214,Amazon Echo - Black,1,0.6137,knn,2026-04-20
+B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,2,0.6013,knn,2026-04-20
+B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,B01K8B8YA8,Echo Dot (2nd Generation) - Black,3,0.5957,knn,2026-04-20
+B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,4,0.5931,knn,2026-04-20
+B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,B01KIOU4EO,Echo Show - Black,5,0.5785,knn,2026-04-20
+B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,6,0.5504,knn,2026-04-20
+B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,7,0.4852,knn,2026-04-20
+B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,B01M71HRMY,All-New Fire 7 Tablet with Alexa,8,0.4772,knn,2026-04-20
+B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,9,0.4716,knn,2026-04-20
+B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,10,0.4612,knn,2026-04-20
+B01BRWH8G8,Fire HD 8 Tablet with Alexa,B010BWYDYA,Fire Tablet with Alexa,1,0.7356,knn,2026-04-20
+B01BRWH8G8,Fire HD 8 Tablet with Alexa,B00LWHUAF0,Fire HD 7 Tablet,2,0.7026,knn,2026-04-20
+B01BRWH8G8,Fire HD 8 Tablet with Alexa,B0117U82EM,Fire HD 8 Tablet,3,0.6919,knn,2026-04-20
+B01BRWH8G8,Fire HD 8 Tablet with Alexa,B01M71HRMY,All-New Fire 7 Tablet with Alexa,4,0.6804,knn,2026-04-20
+B01BRWH8G8,Fire HD 8 Tablet with Alexa,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,5,0.6739,knn,2026-04-20
+B01BRWH8G8,Fire HD 8 Tablet with Alexa,B00VKM5NFY,Fire HD 10 Tablet with Alexa,6,0.6739,knn,2026-04-20
+B01BRWH8G8,Fire HD 8 Tablet with Alexa,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,7,0.658,knn,2026-04-20
+B01BRWH8G8,Fire HD 8 Tablet with Alexa,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,8,0.6475,knn,2026-04-20
+B01BRWH8G8,Fire HD 8 Tablet with Alexa,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,9,0.6364,knn,2026-04-20
+B01BRWH8G8,Fire HD 8 Tablet with Alexa,B00LWHUB9A,Fire HDX 8.9 Tablet,10,0.6244,knn,2026-04-20
+B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,B00NO8JJZW,Alexa Voice Remote for Amazon Fire TV and Fire TV Stick,1,0.8114,knn,2026-04-20
+B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,B00LORGAG6,Replacement Remote for Amazon Fire TV Stick,2,0.7844,knn,2026-04-20
+B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,B01KIOU214,Amazon Echo - Black,3,0.635,knn,2026-04-20
+B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,B00NO8LX7E,All-New Amazon Fire TV Game Controller,4,0.615,knn,2026-04-20
+B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,5,0.609,knn,2026-04-20
+B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,B01KIOU4EO,Echo Show - Black,6,0.5948,knn,2026-04-20
+B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,B01K8B8YA8,Echo Dot (2nd Generation) - Black,7,0.5918,knn,2026-04-20
+B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,8,0.546,knn,2026-04-20
+B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,9,0.4716,knn,2026-04-20
+B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,10,0.4483,knn,2026-04-20
+B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,1,0.6013,knn,2026-04-20
+B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,2,0.5553,knn,2026-04-20
+B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,B01KIOU214,Amazon Echo - Black,3,0.5506,knn,2026-04-20
+B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,B01A08E70K,Kindle E-reader - Black,4,0.5407,knn,2026-04-20
+B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,5,0.528,knn,2026-04-20
+B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,6,0.5266,knn,2026-04-20
+B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,B01K8B8YA8,Echo Dot (2nd Generation) - Black,7,0.5259,knn,2026-04-20
+B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,8,0.5237,knn,2026-04-20
+B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,9,0.5224,knn,2026-04-20
+B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,B00LWHUAF0,Fire HD 7 Tablet,10,0.5208,knn,2026-04-20
+B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,1,0.7781,knn,2026-04-20
+B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,2,0.6505,knn,2026-04-20
+B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,3,0.6345,knn,2026-04-20
+B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,4,0.5777,knn,2026-04-20
+B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,B01J2G4VBG,Kindle Voyage E-reader,5,0.5714,knn,2026-04-20
+B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,B01A08E70K,Kindle E-reader - Black,6,0.5519,knn,2026-04-20
+B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,7,0.5517,knn,2026-04-20
+B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,B01A08ECQY,Certified Refurbished Kindle E-reader - Black,8,0.5492,knn,2026-04-20
+B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,9,0.5376,knn,2026-04-20
+B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,10,0.5182,knn,2026-04-20
+B01J2G4VBG,Kindle Voyage E-reader,B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,1,0.9328,knn,2026-04-20
+B01J2G4VBG,Kindle Voyage E-reader,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,2,0.7722,knn,2026-04-20
+B01J2G4VBG,Kindle Voyage E-reader,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,3,0.7237,knn,2026-04-20
+B01J2G4VBG,Kindle Voyage E-reader,B00QJDU3KY,Kindle Paperwhite,4,0.6951,knn,2026-04-20
+B01J2G4VBG,Kindle Voyage E-reader,B01A08E70K,Kindle E-reader - Black,5,0.6883,knn,2026-04-20
+B01J2G4VBG,Kindle Voyage E-reader,B00QJDS7I4,Kindle Paperwhite E-reader - Black,6,0.6877,knn,2026-04-20
+B01J2G4VBG,Kindle Voyage E-reader,B00QJDVBFU,Kindle Paperwhite 3G,7,0.687,knn,2026-04-20
+B01J2G4VBG,Kindle Voyage E-reader,B00OQVZDJM,Kindle Paperwhite E-reader - Black,8,0.687,knn,2026-04-20
+B01J2G4VBG,Kindle Voyage E-reader,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,9,0.687,knn,2026-04-20
+B01J2G4VBG,Kindle Voyage E-reader,B00DOPNK14,Kindle Paperwhite,10,0.6764,knn,2026-04-20
+B01K8B8YA8,Echo Dot (2nd Generation) - Black,B01KIOU214,Amazon Echo - Black,1,0.8621,knn,2026-04-20
+B01K8B8YA8,Echo Dot (2nd Generation) - Black,B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,2,0.8158,knn,2026-04-20
+B01K8B8YA8,Echo Dot (2nd Generation) - Black,B01KIOU4EO,Echo Show - Black,3,0.737,knn,2026-04-20
+B01K8B8YA8,Echo Dot (2nd Generation) - Black,B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,4,0.6949,knn,2026-04-20
+B01K8B8YA8,Echo Dot (2nd Generation) - Black,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,5,0.6277,knn,2026-04-20
+B01K8B8YA8,Echo Dot (2nd Generation) - Black,B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,6,0.5957,knn,2026-04-20
+B01K8B8YA8,Echo Dot (2nd Generation) - Black,B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,7,0.5918,knn,2026-04-20
+B01K8B8YA8,Echo Dot (2nd Generation) - Black,B00LWHUAF0,Fire HD 7 Tablet,8,0.5583,knn,2026-04-20
+B01K8B8YA8,Echo Dot (2nd Generation) - Black,B00VKM5NFY,Fire HD 10 Tablet with Alexa,9,0.5525,knn,2026-04-20
+B01K8B8YA8,Echo Dot (2nd Generation) - Black,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,10,0.5525,knn,2026-04-20
+B01KIOU214,Amazon Echo - Black,B01K8B8YA8,Echo Dot (2nd Generation) - Black,1,0.8621,knn,2026-04-20
+B01KIOU214,Amazon Echo - Black,B01KIOU4EO,Echo Show - Black,2,0.7776,knn,2026-04-20
+B01KIOU214,Amazon Echo - Black,B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,3,0.7392,knn,2026-04-20
+B01KIOU214,Amazon Echo - Black,B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,4,0.6858,knn,2026-04-20
+B01KIOU214,Amazon Echo - Black,B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,5,0.635,knn,2026-04-20
+B01KIOU214,Amazon Echo - Black,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,6,0.6276,knn,2026-04-20
+B01KIOU214,Amazon Echo - Black,B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,7,0.6137,knn,2026-04-20
+B01KIOU214,Amazon Echo - Black,B00LWHUAF0,Fire HD 7 Tablet,8,0.5888,knn,2026-04-20
+B01KIOU214,Amazon Echo - Black,B01M71HRMY,All-New Fire 7 Tablet with Alexa,9,0.5875,knn,2026-04-20
+B01KIOU214,Amazon Echo - Black,B00VKM5NFY,Fire HD 10 Tablet with Alexa,10,0.5866,knn,2026-04-20
+B01KIOU4EO,Echo Show - Black,B01KIOU214,Amazon Echo - Black,1,0.7776,knn,2026-04-20
+B01KIOU4EO,Echo Show - Black,B01K8B8YA8,Echo Dot (2nd Generation) - Black,2,0.737,knn,2026-04-20
+B01KIOU4EO,Echo Show - Black,B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,3,0.6991,knn,2026-04-20
+B01KIOU4EO,Echo Show - Black,B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,4,0.6497,knn,2026-04-20
+B01KIOU4EO,Echo Show - Black,B01M71HRMY,All-New Fire 7 Tablet with Alexa,5,0.6196,knn,2026-04-20
+B01KIOU4EO,Echo Show - Black,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,6,0.6053,knn,2026-04-20
+B01KIOU4EO,Echo Show - Black,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,7,0.6044,knn,2026-04-20
+B01KIOU4EO,Echo Show - Black,B00VKM5NFY,Fire HD 10 Tablet with Alexa,8,0.6044,knn,2026-04-20
+B01KIOU4EO,Echo Show - Black,B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,9,0.5948,knn,2026-04-20
+B01KIOU4EO,Echo Show - Black,B00LWHUAF0,Fire HD 7 Tablet,10,0.5922,knn,2026-04-20
+B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,B01A08E70K,Kindle E-reader - Black,1,0.7158,knn,2026-04-20
+B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,2,0.6972,knn,2026-04-20
+B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,B00QJDU3KY,Kindle Paperwhite,3,0.6809,knn,2026-04-20
+B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,B01A08ECQY,Certified Refurbished Kindle E-reader - Black,4,0.6459,knn,2026-04-20
+B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,B00OQVZDJM,Kindle Paperwhite E-reader - Black,5,0.6386,knn,2026-04-20
+B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,B00QJDVBFU,Kindle Paperwhite 3G,6,0.6386,knn,2026-04-20
+B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,B00U879XZ8,Certified Refurbished Kindle Paperwhite E-reader - Black,7,0.6386,knn,2026-04-20
+B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,B00QJDS7I4,Kindle Paperwhite E-reader - Black,8,0.6379,knn,2026-04-20
+B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,B00LWHUAF0,Fire HD 7 Tablet,9,0.629,knn,2026-04-20
+B01KVZDFD2,Kindle for Kids Bundle with the latest Kindle E-reader,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,10,0.6284,knn,2026-04-20
+B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,B01K8B8YA8,Echo Dot (2nd Generation) - Black,1,0.8158,knn,2026-04-20
+B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,B01KIOU214,Amazon Echo - Black,2,0.7392,knn,2026-04-20
+B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,3,0.6915,knn,2026-04-20
+B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,B01KIOU4EO,Echo Show - Black,4,0.6497,knn,2026-04-20
+B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,5,0.5695,knn,2026-04-20
+B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,B00LWHUAF0,Fire HD 7 Tablet,6,0.5511,knn,2026-04-20
+B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,7,0.5504,knn,2026-04-20
+B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,8,0.546,knn,2026-04-20
+B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,B01A08E70K,Kindle E-reader - Black,9,0.5255,knn,2026-04-20
+B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,10,0.5237,knn,2026-04-20
+B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,B010BWYDYA,Fire Tablet with Alexa,1,0.761,knn,2026-04-20
+B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,2,0.7356,knn,2026-04-20
+B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,3,0.7294,knn,2026-04-20
+B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,B01M71HRMY,All-New Fire 7 Tablet with Alexa,4,0.7137,knn,2026-04-20
+B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,B00VKM5NFY,Fire HD 10 Tablet with Alexa,5,0.7008,knn,2026-04-20
+B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,6,0.7008,knn,2026-04-20
+B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,B00LWHUB9A,Fire HDX 8.9 Tablet,7,0.6772,knn,2026-04-20
+B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,B01BRWH8G8,Fire HD 8 Tablet with Alexa,8,0.658,knn,2026-04-20
+B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,B00LWHUAF0,Fire HD 7 Tablet,9,0.641,knn,2026-04-20
+B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,B01K8B8YA8,Echo Dot (2nd Generation) - Black,10,0.6277,knn,2026-04-20
+B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,1,0.8004,knn,2026-04-20
+B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,2,0.7356,knn,2026-04-20
+B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,B010BWYDYA,Fire Tablet with Alexa,3,0.7067,knn,2026-04-20
+B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,B00VKM5NFY,Fire HD 10 Tablet with Alexa,4,0.6901,knn,2026-04-20
+B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,5,0.6901,knn,2026-04-20
+B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,B01M71HRMY,All-New Fire 7 Tablet with Alexa,6,0.6833,knn,2026-04-20
+B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,B00LWHUAF0,Fire HD 7 Tablet,7,0.6695,knn,2026-04-20
+B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,B0117U82EM,Fire HD 8 Tablet,8,0.6538,knn,2026-04-20
+B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,B01BRWH8G8,Fire HD 8 Tablet with Alexa,9,0.6364,knn,2026-04-20
+B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,B00LWHUB9A,Fire HDX 8.9 Tablet,10,0.6312,knn,2026-04-20
+B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,1,0.8004,knn,2026-04-20
+B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,B010BWYDYA,Fire Tablet with Alexa,2,0.7476,knn,2026-04-20
+B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,3,0.7294,knn,2026-04-20
+B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,B01M71HRMY,All-New Fire 7 Tablet with Alexa,4,0.6757,knn,2026-04-20
+B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,B00VKM5NFY,Fire HD 10 Tablet with Alexa,5,0.6717,knn,2026-04-20
+B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,6,0.6717,knn,2026-04-20
+B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,7,0.6624,knn,2026-04-20
+B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,8,0.6616,knn,2026-04-20
+B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,B00LWHUB9A,Fire HDX 8.9 Tablet,9,0.6609,knn,2026-04-20
+B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,B00LWHUAF0,Fire HD 7 Tablet,10,0.659,knn,2026-04-20
+B01M71HRMY,All-New Fire 7 Tablet with Alexa,B010BWYDYA,Fire Tablet with Alexa,1,0.7234,knn,2026-04-20
+B01M71HRMY,All-New Fire 7 Tablet with Alexa,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,2,0.7137,knn,2026-04-20
+B01M71HRMY,All-New Fire 7 Tablet with Alexa,B00LWHUB9A,Fire HDX 8.9 Tablet,3,0.6973,knn,2026-04-20
+B01M71HRMY,All-New Fire 7 Tablet with Alexa,B00LWHUAF0,Fire HD 7 Tablet,4,0.6955,knn,2026-04-20
+B01M71HRMY,All-New Fire 7 Tablet with Alexa,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,5,0.6833,knn,2026-04-20
+B01M71HRMY,All-New Fire 7 Tablet with Alexa,B00VKM5NFY,Fire HD 10 Tablet with Alexa,6,0.6811,knn,2026-04-20
+B01M71HRMY,All-New Fire 7 Tablet with Alexa,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,7,0.6811,knn,2026-04-20
+B01M71HRMY,All-New Fire 7 Tablet with Alexa,B01BRWH8G8,Fire HD 8 Tablet with Alexa,8,0.6804,knn,2026-04-20
+B01M71HRMY,All-New Fire 7 Tablet with Alexa,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,9,0.6757,knn,2026-04-20
+B01M71HRMY,All-New Fire 7 Tablet with Alexa,B00QJDS7I4,Kindle Paperwhite E-reader - Black,10,0.6469,knn,2026-04-20
+B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,B01KIOU4EO,Echo Show - Black,1,0.6991,knn,2026-04-20
+B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,B01K8B8YA8,Echo Dot (2nd Generation) - Black,2,0.6949,knn,2026-04-20
+B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,B01LW1MS9C,Amazon Echo Dot Case (fits Echo Dot 2nd Generation only) - Indigo Fabric,3,0.6915,knn,2026-04-20
+B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,B01KIOU214,Amazon Echo - Black,4,0.6858,knn,2026-04-20
+B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,B01E9AHU8Q,Alexa Voice Remote for Amazon Echo and Echo Dot,5,0.609,knn,2026-04-20
+B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,B01BH83OOM,Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker,6,0.5931,knn,2026-04-20
+B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,B01A08E70K,Kindle E-reader - Black,7,0.5711,knn,2026-04-20
+B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,B01M71HRMY,All-New Fire 7 Tablet with Alexa,8,0.5578,knn,2026-04-20
+B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,B01FWSVGQQ,Amazon Tap Sling Cover - Tangerine,9,0.5553,knn,2026-04-20
+B06XDD27LJ,Certified Refurbished Echo Dot (2nd Generation) - Black,B00QJDVBFU,Kindle Paperwhite 3G,10,0.5514,knn,2026-04-20
+B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,1,0.7839,knn,2026-04-20
+B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,2,0.7145,knn,2026-04-20
+B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,3,0.6624,knn,2026-04-20
+B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,B01A08E70K,Kindle E-reader - Black,4,0.661,knn,2026-04-20
+B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,5,0.6454,knn,2026-04-20
+B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,B010BWYDYA,Fire Tablet with Alexa,6,0.6405,knn,2026-04-20
+B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,7,0.631,knn,2026-04-20
+B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,B00LWHUAF0,Fire HD 7 Tablet,8,0.6101,knn,2026-04-20
+B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,B00ZS0G0PG,Kindle Oasis E-reader with Leather Charging Cover - Walnut,9,0.5925,knn,2026-04-20
+B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,B01M71HRMY,All-New Fire 7 Tablet with Alexa,10,0.5924,knn,2026-04-20
+B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,1,0.7839,knn,2026-04-20
+B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,2,0.7235,knn,2026-04-20
+B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,3,0.6616,knn,2026-04-20
+B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,B010BWYDYA,Fire Tablet with Alexa,4,0.632,knn,2026-04-20
+B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,5,0.6309,knn,2026-04-20
+B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,B01BRWH8G8,Fire HD 8 Tablet with Alexa,6,0.6084,knn,2026-04-20
+B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,B00VKM5NFY,Fire HD 10 Tablet with Alexa,7,0.6082,knn,2026-04-20
+B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,B00VKLBU3Y,Fire HD 10 Tablet with Alexa,8,0.6082,knn,2026-04-20
+B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,9,0.605,knn,2026-04-20
+B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,10,0.5983,knn,2026-04-20
+B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,1,0.829,knn,2026-04-20
+B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,2,0.7235,knn,2026-04-20
+B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,3,0.7145,knn,2026-04-20
+B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,4,0.6518,knn,2026-04-20
+B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,5,0.6345,knn,2026-04-20
+B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,B010BWYDYA,Fire Tablet with Alexa,6,0.6024,knn,2026-04-20
+B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,B01A08E70K,Kindle E-reader - Black,7,0.6011,knn,2026-04-20
+B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,B01M71HRMY,All-New Fire 7 Tablet with Alexa,8,0.6002,knn,2026-04-20
+B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,B01M4NU4OM,All-New Fire 7 Kids Edition Tablet,9,0.5934,knn,2026-04-20
+B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,10,0.5928,knn,2026-04-20
+B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,B07194GPJV,All-New Amazon Fire 7 Tablet Case (7th Generation,1,0.829,knn,2026-04-20
+B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,B01HC1S9HU,Amazon Kindle Oasis Premium Leather Battery Cover - Walnut,2,0.7781,knn,2026-04-20
+B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,B010EK1GOE,Kindle Oasis with Leather Charging Cover - Black,3,0.657,knn,2026-04-20
+B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,B0711C7WL2,All-New Amazon Kid-Proof Case for Amazon Fire 7 Tablet (7th Generation,4,0.6454,knn,2026-04-20
+B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,B0716JZKLT,All-New Amazon Kid-Proof Case for Amazon Fire HD 8 Tablet (7th Generation,5,0.5983,knn,2026-04-20
+B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,B01J2G4VBG,Kindle Voyage E-reader,6,0.5882,knn,2026-04-20
+B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,B00PD81ETU,Certified Refurbished Kindle Voyage E-reader with Special Offers,7,0.5873,knn,2026-04-20
+B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,B01M4NRFXX,All-New Fire HD 8 Kids Edition Tablet,8,0.5846,knn,2026-04-20
+B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,B01M3ULMWP,All-New Fire HD 8 Tablet with Alexa,9,0.5746,knn,2026-04-20
+B071NMTDHR,All-New Amazon Fire HD 8 Tablet Case (7th Generation,B01A08E70K,Kindle E-reader - Black,10,0.5716,knn,2026-04-20

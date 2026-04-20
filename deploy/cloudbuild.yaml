@@ -1,0 +1,71 @@
+steps:
+  # Build API image
+  - name: "gcr.io/cloud-builders/docker"
+    id: build-api
+    args:
+      - build
+      - -f
+      - api/Dockerfile
+      - -t
+      - gcr.io/$PROJECT_ID/recommender-api:$COMMIT_SHA
+      - -t
+      - gcr.io/$PROJECT_ID/recommender-api:latest
+      - .
+
+  # Push API image
+  - name: "gcr.io/cloud-builders/docker"
+    id: push-api
+    args:
+      - push
+      - --all-tags
+      - gcr.io/$PROJECT_ID/recommender-api
+    waitFor: [build-api]
+
+  # Deploy FastAPI to Cloud Run
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    id: deploy-api
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - recommender-api
+      - --image=gcr.io/$PROJECT_ID/recommender-api:$COMMIT_SHA
+      - --platform=managed
+      - --region=us-central1
+      - --allow-unauthenticated
+      - --memory=2Gi
+      - --cpu=1
+      - --concurrency=80
+      - --min-instances=0
+      - --max-instances=3
+    waitFor: [push-api]
+
+  # Build Retrain Job image
+  - name: "gcr.io/cloud-builders/docker"
+    id: build-retrain
+    args:
+      - build
+      - -f
+      - retrain/Dockerfile
+      - -t
+      - gcr.io/$PROJECT_ID/recommender-retrain:$COMMIT_SHA
+      - -t
+      - gcr.io/$PROJECT_ID/recommender-retrain:latest
+      - .
+
+  # Push Retrain image
+  - name: "gcr.io/cloud-builders/docker"
+    id: push-retrain
+    args:
+      - push
+      - --all-tags
+      - gcr.io/$PROJECT_ID/recommender-retrain
+    waitFor: [build-retrain]
+
+images:
+  - gcr.io/$PROJECT_ID/recommender-api:$COMMIT_SHA
+  - gcr.io/$PROJECT_ID/recommender-retrain:$COMMIT_SHA
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  machineType: E2_MEDIUM

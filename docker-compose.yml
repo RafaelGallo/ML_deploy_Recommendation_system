@@ -1,0 +1,76 @@
+services:
+
+  mlflow:
+    build:
+      context: .
+      dockerfile: mlflow_server/Dockerfile
+    container_name: mlflow_server
+    ports:
+      - "5000:5000"
+    volumes:
+      - mlflow_data:/mlflow/mlartifacts
+      - mlflow_db:/mlflow/db
+    environment:
+      - MLFLOW_BACKEND_STORE_URI=sqlite:////mlflow/db/mlflow.db
+      - MLFLOW_ARTIFACT_ROOT=/mlflow/mlartifacts
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    container_name: recommender_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models:ro
+      - ./output:/app/output:ro
+      - ./config:/app/config:ro
+    environment:
+      - MODELS_DIR=/app/models
+      - DATA_PATH=/app/output/df_products.csv
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+      - GCP_PROJECT_ID=${GCP_PROJECT_ID:-samara-a2d79}
+      - BQ_DATASET=${BQ_DATASET:-amazon_reviews}
+      - BQ_TABLE=${BQ_TABLE:-product_reviews}
+      - EMAIL_SENDER=${EMAIL_SENDER:-rafaelhenriquegallo@gmail.com}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD}
+      - EMAIL_RECIPIENTS=${EMAIL_RECIPIENTS:-rafaelhenriquegallo@gmail.com}
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/config/samara-a2d79-542a53ac58d8.json
+    depends_on:
+      mlflow:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: streamlit_app/Dockerfile
+    container_name: recommender_ui
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  mlflow_data:
+  mlflow_db:
+
+networks:
+  default:
+    name: recommender_network
+    external: true
