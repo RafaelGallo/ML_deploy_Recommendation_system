@@ -1,21 +1,3 @@
----
-title: Amazon Product Recommender
-colorFrom: yellow
-colorTo: red
-sdk: docker
-app_port: 7860
-suggested_hardware: cpu-basic
-pinned: false
-license: mit
-short_description: Sistema de recomendacao KNN e NCF para produtos Amazon.
-tags:
-  - machine-learning
-  - recommendation-system
-  - fastapi
-  - streamlit
-  - amazon
----
-
 # Amazon Product Recommender
 
 Sistema de recomendacao de produtos da Amazon com KNN e Neural Collaborative Filtering.
@@ -24,13 +6,6 @@ Este Space usa Docker para rodar dois servicos no mesmo container:
 
 - FastAPI interna em `127.0.0.1:8000`
 - Streamlit publico na porta `7860`
-
-## Como publicar
-
-1. Crie um Space em Hugging Face com SDK `Docker`.
-2. Suba o conteudo deste repositorio para o Space.
-3. Garanta que o `README.md` do Space tenha este bloco YAML no topo.
-4. O build vai usar o `Dockerfile` da raiz do projeto.
 
 ## Arquivos usados no deploy
 
