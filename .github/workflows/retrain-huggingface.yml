@@ -1,0 +1,115 @@
+name: Retrain and Deploy to Hugging Face
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Training data source.
+        required: true
+        default: bigquery
+        type: choice
+        options:
+          - bigquery
+          - csv
+      table_id:
+        description: Optional full BigQuery table id.
+        required: false
+        type: string
+      allow_csv_fallback:
+        description: Use CSV if BigQuery fails.
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+  schedule:
+    - cron: "0 8 * * 1"
+
+permissions:
+  contents: read
+
+env:
+  HF_SPACE_REPO: gallorafael22/Model_ml_mlops_Recommendation_system
+  HF_REPO_TYPE: space
+  GCP_PROJECT_ID: samara-a2d79
+  BQ_DATASET: amazon_reviews
+  BQ_TABLE: product_reviews
+  MODELS_DIR: models
+  DATA_PATH: output/df_products.csv
+  MLFLOW_TRACKING_URI: file:mlruns
+  MLFLOW_FALLBACK_TRACKING_URI: file:mlruns
+  TRAIN_SOURCE: ${{ github.event.inputs.source || 'bigquery' }}
+  TABLE_ID: ${{ github.event.inputs.table_id || '' }}
+  ALLOW_CSV_FALLBACK: ${{ github.event.inputs.allow_csv_fallback || 'false' }}
+  GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}
+  HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
+jobs:
+  retrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r retrain/requirements.txt
+          pip install "huggingface_hub>=0.27.0"
+
+      - name: Validate required secrets
+        run: |
+          if [ -z "${HF_TOKEN}" ]; then
+            echo "Missing GitHub secret: HF_TOKEN"
+            exit 1
+          fi
+
+          if [ "${TRAIN_SOURCE}" = "bigquery" ] \
+            && [ -z "${GOOGLE_APPLICATION_CREDENTIALS_JSON}" ]; then
+            echo "Missing GitHub secret: GOOGLE_APPLICATION_CREDENTIALS_JSON"
+            exit 1
+          fi
+
+      - name: Validate Airflow DAG syntax
+        run: |
+          python -m py_compile Airflow/dags/huggingface_retrain_dag.py
+
+      - name: Retrain recommender
+        run: |
+          args=(--source "${TRAIN_SOURCE}" --log-level INFO)
+
+          if [ -n "${TABLE_ID}" ]; then
+            args+=(--table-id "${TABLE_ID}")
+          fi
+
+          if [ "${ALLOW_CSV_FALLBACK}" = "true" ]; then
+            args+=(--allow-csv-fallback)
+          fi
+
+          python retrain/retrain_pipeline.py "${args[@]}"
+
+      - name: Upload artifacts to Hugging Face
+        run: |
+          python scripts/upload_hf_artifacts.py \
+            --repo-id "${HF_SPACE_REPO}" \
+            --repo-type "${HF_REPO_TYPE}" \
+            --restart-space
+
+      - name: Store MLflow run logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mlflow-runs
+          path: mlruns
+          if-no-files-found: ignore
